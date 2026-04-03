@@ -46,7 +46,7 @@ api_key = os.getenv("OPEN_AI_API_KEY")
 model = 'gpt-4o-mini'
 url = "https://api.openai.com/v1/chat/completions"
 
-c1 = TextSummarizer(url=url, model=model, api_key=api_key)
+# c1 = TextSummarizer(url=url, model=model, api_key=api_key)
 
 # text = "The James Webb Space Telescope (JWST), launched in December 2021, represents a massive leap in astronomical technology. Operating primarily in the infrared spectrum, it allows scientists to peer through cosmic dust clouds that obscure the view of older telescopes like Hubble. Its primary mirror, composed of 18 hexagonal segments coated in gold, spans 6.5 meters. Currently stationed at the second Lagrange point (L2), nearly 1.5 million kilometers from Earth, JWST is designed to study the formation of the first galaxies and the atmospheres of potentially habitable exoplanets."
 # print(c1.summarize(text))
