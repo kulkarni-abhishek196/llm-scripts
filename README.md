@@ -5,7 +5,7 @@ engineering learning path.
 2. text classifier -> Text classifier uses openAi for identifying the tone of the text across..complaints, compliments, feedback, etc.
 3. text summarizer with fast api -> This code is just similar to script1 one only difference is I'm using FastApi FastAPI to expose the summarizer as an HTTP endpoint over the internet
 
-4. ## Scripts
+## Scripts
 
 ### 1. Text Summarizer
 Summarizes long text into 3 bullet points using OpenAI.
